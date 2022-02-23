@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林俐君Portfolio</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/index.css">
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+<body>
+    <!-- 最上方顯示形象圖 -->
+    <section class="banner">
+        <div class="back"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 left">
+                    <h1>HI!</h1>
+                    <h2>I'm Lily 林俐君</h2>
+                </div>
+                <div class="col-6 right">
+                    <div class="photo"></div>
+                </div>
+            </div>
+            <!-- 中間錨點欄 -->
+            <div class="row">
+                <div class="col-8  anchor">
+                    <ul class="anchor-ul">
+                        <li>自傳</li>
+                        <li>技能</li>
+                        <li>作品</li>
+                        <li>經歷</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 自傳 -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 title">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 me"></div>
+                <div class="col-5 content">
+                    <h2>林俐君</h2>
+                    <p>從小開始就展現對於美感的追求，多年藝術設計的沉澱積累，從【樹德設計大學產品設計系】畢業。</p>
+                    <p>對任何事物都感興趣的我養成自學能力，在學習平台( Udemy)上買課程自學。
+                        此外我還擁有諸多興趣：繪畫、攝影、3D列印、木工，我擅長將不同能力做【統整應用】，結合我廣泛的興趣以及本科專業。</p>
+                </div>
+            </div>
+            <div class="row-b"></div>
+        </div>
+    </section>
+
+
+    <!-- 能力 -->
+    <section class="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 title">
+                    <h2>My Skill</h2>
+                </div>
+            </div>
+            <!-- 手風琴 -->
+            <div class="row">
+                <div class="col-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fas fa-code"></i>
+                                <h5>前端</h5>
+                            </button>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="col-8">
+                                        <i class="fab fa-html5"></i>HTML
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%"
+                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <i class="fab fa-css3-alt"></i>Css
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%"
+                                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <i class="fab fa-js"></i>JavaScript
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <i class="fab fa-bootstrap"></i>Bootstrap
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <i class="fab fa-sass"></i>Sass
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 70%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fas fa-code"></i>
+                                    <h5>後端</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="col-8">
+                                        <i class="fab fa-php"></i>PHP
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 30%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <i class="fab fa-laravel"></i>laravel
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fas fa-pen-nib"></i>
+                                    <h5>平面設計</h5>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="col-8">
+                                        <img src="" alt="">Photoshop
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 70%"
+                                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <img src="" alt="">Illustrator
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 90%"
+                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <img src="" alt="">InDesign
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%"
+                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="fas fa-drafting-compass"></i>
+                                <h5>立體製圖</h5>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="col-8">
+                                    <img src="" alt="">SOLIDWORKS
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <img src="" alt="">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"
+                                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row-b"></div>
+        </div>
+        </div>
+    </section>
+
+    <!-- 卡片形式展示作品(引用連結) -->
+    <section class="page-content">
+        <div class="row">
+            <div class="col-3 class">
+                <h3>作品集</h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">揪騎后豐</h2>
+                <p class="copy">職訓局－大數據平台開發全端工程師養成班 畢業專題<br>負責企劃構想、UI/UX介面設計、前端編寫<br></p>
+                <a href="https://m80068.github.io/Sun-Moon-Lake/" class="btn">Go</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">日月潭介紹</h2>
+                <p class="copy"><br>負責UI/UX介面設計、前端編寫<br><br>視差網站運用 <br>#css</p>
+                <a href="https://m80068.github.io/Sun-Moon-Lake/" class="btn">Go</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">個人攝影作品</h2>
+                <p class="copy"><br>負責UI/UX介面設計、前端編寫<br><br>RWD切版運用 <br>#css</p>
+                <a href="https://m80068.github.io/RWD-travel/" class="btn">Go</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">微軟官網仿切</h2>
+                <p class="copy"><br>負責UI/UX介面設計、前端編寫<br><br>CSS運用<br>#css</p>
+                <a href="https://m80068.github.io/Sun-Moon-Lake/" class="btn">Go</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">微軟官網仿切</h2>
+                <p class="copy">CSS運用</p>
+                <a href="https://m80068.github.io/Sun-Moon-Lake/" class="btn">Go</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">天氣小卡</h2>
+                <p class="copy">API串聯運用</p>
+                <a href="https://m80068.github.io/weatherAPI/" class="btn">Go</a></button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- 設計作品 -->
+    <section class="design">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 title">
+                    <h2>Design portfolio</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 經歷 -->
+    <section class="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 title">
+                    <h2>My portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Quote
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>A well-known quote, contained in a blockquote element.</p>
+                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                        Title</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Quote
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>A well-known quote, contained in a blockquote element.</p>
+                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source
+                                        Title</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 表單 -->
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title">
+                    <h2>聯絡我</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</html>
